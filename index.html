@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Texto</h1>
+        <p class="subtitle">Analiza tu texto: cuenta palabras, caracteres, oraciones y más.</p>
+
+        <textarea id="inputText" placeholder="Escribe o pega tu texto aquí..."></textarea>
+
+        <button id="analyzeBtn">Analizar</button>
+
+        <div id="results" class="results hidden">
+            <div class="stat">
+                <span class="stat-label">Caracteres (sin espacios)</span>
+                <span id="charCount" class="stat-value">0</span>
+            </div>
+            <div class="stat">
+                <span class="stat-label">Palabras</span>
+                <span id="wordCount" class="stat-value">0</span>
+            </div>
+            <div class="stat">
+                <span class="stat-label">Oraciones</span>
+                <span id="sentenceCount" class="stat-value">0</span>
+            </div>
+            <div class="stat">
+                <span class="stat-label">Párrafos</span>
+                <span id="paragraphCount" class="stat-value">0</span>
+            </div>
+            <div class="stat">
+                <span class="stat-label">Palabra más larga</span>
+                <span id="longestWord" class="stat-value">—</span>
+            </div>
+            <div class="stat">
+                <span class="stat-label">Palabra más corta</span>
+                <span id="shortestWord" class="stat-value">—</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
