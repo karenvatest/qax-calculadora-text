@@ -169,4 +169,5 @@ de palabras, de oraciones y parrafos, y la palabra mas larga y la mas corta
 - [ ] No aplica
 
 | Passed | Failed |
+| ------ | ------ |
 |   5    |    0   |
